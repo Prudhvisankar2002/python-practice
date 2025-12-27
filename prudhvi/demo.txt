@@ -1,0 +1,6 @@
+core python
+ avd python
+ django
+ html
+ data analysis
+ data science

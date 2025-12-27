@@ -1,0 +1,6 @@
+f=open('demo.txt','w')
+f.write('core python')
+f.write('\n avd python')
+f.write('\n django')
+f.write('\n html')
+f.close()

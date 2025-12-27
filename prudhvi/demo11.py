@@ -1,0 +1,6 @@
+f=open('demo11.txt','w')
+f.write('hi i am very good developer ')
+f.write('\n hello, i am python developer am great developer')
+f.write('\n do you need any help')
+f.write('\n i am always ready to develop programs')
+f.close()
