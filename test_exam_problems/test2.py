@@ -1,57 +1,57 @@
-# def show():
-#     a=20
-#     print(a)
-# def display():
-#     b=50
-#     print(b)
-# show()
-# display()
+def show():
+    a=20
+    print(a)
+def display():
+    b=50
+    print(b)
+show()
+display()
 
 
-# def show():
-#     a = 20
-#     print(a)
-# def display():
-#     b = 50
-#     print(c)
-#     c = a + b
-# show()
-# display()
+def show():
+    a = 20
+    print(a)
+def display():
+    b = 50
+    print(c)
+    c = a + b
+show()
+display()
 
-# def show():
-#     a = 20
-#     print(a)
-# def display():
-#     a = 50
-#     print(a)
-# show()
-# display()
-#
-#
-#
-#
-# def show():
-#     a = 20
-#     print(a)
-# def display():
-#     a = 50
-#     print(a)
-# show()
-# display()
-# print(a)
+def show():
+    a = 20
+    print(a)
+def display():
+    a = 50
+    print(a)
+show()
+display()
 
 
 
-# def show():
-#     print(a)
-# show()
+
+def show():
+    a = 20
+    print(a)
+def display():
+    a = 50
+    print(a)
+show()
+display()
+print(a)
 
 
 
-# def show():
-#     print(a)
-#     a = 25
-# show()
+def show():
+    print(a)
+show()
+
+
+
+def show():
+    print(a)
+    a = 25
+show()
 
 
 
