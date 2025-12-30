@@ -1,128 +1,128 @@
-##w.a.p.read a multiple values from user then find sum.
-# sum=0
-# ch='y'
-# while ch=='y':
-#       n=int(input('enter the any number: '))
-#       sum+=n
-#       ch=input('Do you want continue (y/n):')
-# print('The sum of the numbers is',sum)
-#
-#
-#
-# #w.a.p.read a multiple values from user then find sum of the even numbers only.
-# sum=0
-# ch='y'
-# while ch=='y':
-#       n=int(input('enter the any number: '))
-#       if n%2==0:
-#           sum+=n
-#       ch=input('Do you want continue (y/n):')
-# print('The sum of the numbers is',sum)
-
-
-# #w.a.p. read a number then print the sum as given number.
-# n=int(input('enter the any nuber: '))
-# sum=0
-# while n>0:
-#     r=n%10
-#     n=n//10
-#     sum+=r
-# print('the sum of the numbers is',sum)
-
-# #w.a.p. read a number then print the sum as given number.
-# n=int(input('enter the any nuber: '))
-# rev=0
-# while n>0:
-#     r=n%10
-#     n=n//10
-#     rev=rev*10+r
-# print('the sum of the numbers is',rev)
-
-
-#
-# n=int(input('enter the any number: '))
-# temp=n
-# reverse=0
-# while n>0:
-#     r=n%10
-#     reverse=reverse*10+r
-#     n = n // 10
-# print(reverse)
-# if temp==reverse:
-#     print('it is a palindrome')
-# else:
-#     print('it is not a palindrome')
-
-
-# evensum=0
-# n = int(input('enter the any number: '))
-# while n>0:
-#     r=n%10
-#     n=n//10
-#     if n%2==0:
-#         evensum+=r
-# print('sum of the even numbers:',evensum)
+#w.a.p.read a multiple values from user then find sum.
+sum=0
+ch='y'
+while ch=='y':
+      n=int(input('enter the any number: '))
+      sum+=n
+      ch=input('Do you want continue (y/n):')
+print('The sum of the numbers is',sum)
 
 
 
-
-# n = int(input('enter the any number: '))
-# evensum,oddsum=0,0
-# while n>0:
-#     r=n%10
-#     n=n//10
-#     if r%2==0:
-#         evensum+=r
-#     elif r%2!=0:
-#         oddsum+=r
-# print('sum of the even numbers:',evensum)
-# print('sum of the odd numbers:',oddsum)
+#w.a.p.read a multiple values from user then find sum of the even numbers only.
+sum=0
+ch='y'
+while ch=='y':
+      n=int(input('enter the any number: '))
+      if n%2==0:
+          sum+=n
+      ch=input('Do you want continue (y/n):')
+print('The sum of the numbers is',sum)
 
 
-# n=int(input('enter the any number: '))
-# temp=n
-# count=0
-# while n>0:
-#     r=n%10
-#     n=n//10
-#     count+=1
-# print('enter value is:',temp)
-# print('count of digits:',count)
+#w.a.p. read a number then print the sum as given number.
+n=int(input('enter the any nuber: '))
+sum=0
+while n>0:
+    r=n%10
+    n=n//10
+    sum+=r
+print('the sum of the numbers is',sum)
 
-
-
-# n=int(input('enter the any number: '))
-# temp=n
-# evencount=oddcount=0
-# while n>0:
-#     r=n%10
-#     n=n//10
-#     if r%2==0:
-#         evencount+=1
-#     else:
-#         oddcount+=1
-# print('total count of even count digits: ',evencount)
-# print('total count of odd count digits: ',oddcount)
+#w.a.p. read a number then print the sum as given number.
+n=int(input('enter the any nuber: '))
+rev=0
+while n>0:
+    r=n%10
+    n=n//10
+    rev=rev*10+r
+print('the sum of the numbers is',rev)
 
 
 
-# n=int(input('enter the any number: '))
-# temp=n
-# sum=0
-# rev=0
-# n=n//10
-# while n>0:
-#     r=n%10
-#     n=n//10
-#     rev=rev*10+r
-# print(rev)
-# rev=rev//10
-# print(rev)
-# while rev > 0:
-#     r=rev % 10
-#     rev=rev//10
-#     sum=sum+r
-# print('sum of all digits Expect first and last no: ',sum)
+n=int(input('enter the any number: '))
+temp=n
+reverse=0
+while n>0:
+    r=n%10
+    reverse=reverse*10+r
+    n = n // 10
+print(reverse)
+if temp==reverse:
+    print('it is a palindrome')
+else:
+    print('it is not a palindrome')
+
+
+evensum=0
+n = int(input('enter the any number: '))
+while n>0:
+    r=n%10
+    n=n//10
+    if n%2==0:
+        evensum+=r
+print('sum of the even numbers:',evensum)
+
+
+
+
+n = int(input('enter the any number: '))
+evensum,oddsum=0,0
+while n>0:
+    r=n%10
+    n=n//10
+    if r%2==0:
+        evensum+=r
+    elif r%2!=0:
+        oddsum+=r
+print('sum of the even numbers:',evensum)
+print('sum of the odd numbers:',oddsum)
+
+
+n=int(input('enter the any number: '))
+temp=n
+count=0
+while n>0:
+    r=n%10
+    n=n//10
+    count+=1
+print('enter value is:',temp)
+print('count of digits:',count)
+
+
+
+n=int(input('enter the any number: '))
+temp=n
+evencount=oddcount=0
+while n>0:
+    r=n%10
+    n=n//10
+    if r%2==0:
+        evencount+=1
+    else:
+        oddcount+=1
+print('total count of even count digits: ',evencount)
+print('total count of odd count digits: ',oddcount)
+
+
+
+n=int(input('enter the any number: '))
+temp=n
+sum=0
+rev=0
+n=n//10
+while n>0:
+    r=n%10
+    n=n//10
+    rev=rev*10+r
+print(rev)
+rev=rev//10
+print(rev)
+while rev > 0:
+    r=rev % 10
+    rev=rev//10
+    sum=sum+r
+print('sum of all digits Expect first and last no: ',sum)
 
 
 
