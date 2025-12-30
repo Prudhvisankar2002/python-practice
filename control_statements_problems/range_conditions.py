@@ -1,7 +1,7 @@
 # for i in range(1,100):
 #     if i%3==0 and i%5==0:
 #         print(i)
-from function_problems.funtion4 import attendecepercentage
+#from function_problems.funtion4 import attendecepercentage
 
 # startno=int(input('enter the start range no: '))
 # endno=int(input('enter the end range no:  '))
