@@ -1,0 +1,33 @@
+import pyodbc as sql
+con=sql.connect(driver='SQL Server',server='PRUDHVISANKAR',database='redbus',user='sa',password=2002)
+print(con)
+cur = con.cursor()
+sid = int(input("Enter Student ID: "))
+sname = input("Enter Student Name: ")
+gender = input("Enter Gender(m/f/o): ")
+s1 = int(input("Enter Subject 1 Marks: "))
+s2 = int(input("Enter Subject 2 Marks: "))
+s3 = int(input("Enter Subject 3 Marks: "))
+total = s1 + s2 + s3
+average = total / 3
+try:
+    cur.execute("alter table student add grade varchar(2)")
+    con.commit()
+except:
+    pass
+if average >= 90:
+    grade = 'A'
+elif average >= 75:
+    grade = 'B'
+elif average >= 60:
+    grade = 'C'
+elif average >= 50:
+    grade = 'D'
+else:
+    grade = 'F'
+q="insert into student values(?, ?, ?, ?, ?, ?, ?, ?, ?)"
+t1=(sid, sname, gender, s1, s2, s3, total, average, grade)
+cur.execute(q,t1)
+con.commit()
+print(" record inserted with Grade")
+con.close()
